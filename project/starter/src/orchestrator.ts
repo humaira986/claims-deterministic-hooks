@@ -87,7 +87,7 @@ Return only the structured review report.
                 options: {
                   mcpServers: mcpServersConfig,
                   agents: this.agents,
-                  allowedTools: ['Task', 'Skill'],
+                  allowedTools: ['Task', 'Skill', 'mcp__github__get_pull_request', 'mcp__github__get_pull_request_files', 'mcp__github__get_file_contents', 'mcp__eslint__lint'],
                   outputFormat: {
                     type: 'json_schema',
                     schema: ReviewReportJSONSchema
